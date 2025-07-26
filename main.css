@@ -1,28 +1,64 @@
 body {
   background-image: url("Aurora_Hero_Page_Background.jpg");
   background-size: cover;
+  user-select: none; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
 }
 
 .nav-buttons {
-  display: flex;
   justify-content: right;
-  margin-top: 30px;
-  margin-right: 40px;
-  padding: 30px;
+  margin-left: 30px;
   gap: 30px;
+
 }
+
+.title-name {
+  display: flex;
+  margin-top: 220px;
+  margin-bottom: 5px;
+  line-height: 125px;
+  justify-content: center;
+  color: white;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 20;
+  font-size: 190px;
+ 
+} 
+
+.title-caption {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Playpen Sans";
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+ 
+} 
+
+#nav-bar-button {
+  border: none;
+  border-radius: 100%;
+  padding: 25px;
+  margin-right: 920px;
+  background-color: #015869;
+}
+
 
 #home-button,
 #about-us-button,
 #login-signup-button {
   border: none;
   border-radius: 20px;
+  margin: 60px 30px 0 0;
   padding: 5px 20px;
   background-color: #015869;
   color: white;
   font-family: "Balsamiq Sans", sans-serif;
   font-size: 15px;
-  font-style: normal;
 }
 
 #home-button:hover,
