@@ -25,7 +25,7 @@ body {
   font-weight: 20;
   font-size: 190px;
   position: relative;
-  top: -50px;
+  top: -230px;
 }
 
 .title-caption {
@@ -38,7 +38,7 @@ body {
   font-weight: lighter;
   font-style: normal;
   position: relative;
-  top: -50px;
+  top: -230px;
 }
 
 .aurora-logo {
@@ -46,6 +46,16 @@ body {
   position: relative;
   bottom: 11px;
   right: 16px;
+  border-radius: 50%;
+  border: none;
+}
+
+
+.aurora-logo-1{
+  width: 400px;
+  position: relative;
+  bottom: -71px;
+  right: -593px;
   border-radius: 50%;
   border: none;
 }
