@@ -19,7 +19,6 @@ body {
   height: 130px;
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .homescreen-header-logo-container {
@@ -30,7 +29,7 @@ body {
     border-radius: 40px;
     width: 60px;
     height: 60px;  
-
+    transition: all 0.2s ease-in-out;
 }
 
 .homescreen-header-logo {
@@ -39,6 +38,13 @@ body {
   width: auto;
   height: 145%;
   object-fit: cover;
+  pointer-events: none;
+}
+
+.homescreen-header-logo-container:hover{
+  background-color: #00b2a4;
+  cursor: pointer;
+  
 }
 
 .homescreen-header-buttons {
@@ -57,8 +63,13 @@ body {
   font-weight: 500;
   font-size: 14px;
   background-color: #015869;
-
+  transition: all 0.2s ease-in-out;
 } 
+
+.home-button:hover, .about-us-button:hover, .login-signup-button:hover {
+  background-color: #00b2a4;
+  cursor: pointer;
+}
 
 
 .aurora-title-container {
